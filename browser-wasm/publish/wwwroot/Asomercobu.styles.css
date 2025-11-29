@@ -1,0 +1,425 @@
+/* /Layout/MainLayout.razor.rz.scp.css */
+.page[b-qedkxh2ql8] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-qedkxh2ql8] {
+    flex: 1;
+}
+
+.sidebar[b-qedkxh2ql8] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-qedkxh2ql8] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-qedkxh2ql8]  a, .top-row[b-qedkxh2ql8]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-qedkxh2ql8]  a:hover, .top-row[b-qedkxh2ql8]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-qedkxh2ql8]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row[b-qedkxh2ql8] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-qedkxh2ql8]  a, .top-row[b-qedkxh2ql8]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-qedkxh2ql8] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-qedkxh2ql8] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-qedkxh2ql8] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-qedkxh2ql8]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-qedkxh2ql8], article[b-qedkxh2ql8] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Layout/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-ctcqnrh998] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-ctcqnrh998] {
+    min-height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-ctcqnrh998] {
+    font-size: 1.1rem;
+}
+
+.bi[b-ctcqnrh998] {
+    display: inline-block;
+    position: relative;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.75rem;
+    top: -1px;
+    background-size: cover;
+}
+
+.bi-house-door-fill-nav-menu[b-ctcqnrh998] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-house-door-fill' viewBox='0 0 16 16'%3E%3Cpath d='M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z'/%3E%3C/svg%3E");
+}
+
+.bi-plus-square-fill-nav-menu[b-ctcqnrh998] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-plus-square-fill' viewBox='0 0 16 16'%3E%3Cpath d='M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z'/%3E%3C/svg%3E");
+}
+
+.bi-list-nested-nav-menu[b-ctcqnrh998] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list-nested' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
+}
+
+.nav-item[b-ctcqnrh998] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-ctcqnrh998] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-ctcqnrh998] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-ctcqnrh998]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-ctcqnrh998]  a.active {
+    background-color: rgba(255,255,255,0.37);
+    color: white;
+}
+
+.nav-item[b-ctcqnrh998]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-ctcqnrh998] {
+        display: none;
+    }
+
+    .collapse[b-ctcqnrh998] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+
+    .nav-scrollable[b-ctcqnrh998] {
+        /* Allow sidebar to scroll for tall menus */
+        height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}
+/* /Pages/ContactComponent.razor.rz.scp.css */
+
+.fontfooter[b-11447rzee0] {
+    color: white;
+    font-family: 'SamsungOne', Arial, sans-serif; /* Fuente personalizada */
+}
+
+
+/* /Pages/Contacto.razor.rz.scp.css */
+.contacto-plazas[b-n1dqyu6zev] {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding-top: 2rem;
+}
+
+
+
+.titulo-contacto[b-n1dqyu6zev] {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.subtitulo[b-n1dqyu6zev] {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.formulario-card[b-n1dqyu6zev] {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    background-color: white;
+    border-top: 4px solid #28a745;
+}
+
+.info-card[b-n1dqyu6zev] {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    background-color: #28a745;
+    color: white;
+}
+
+.campesino-form-group label[b-n1dqyu6zev] {
+    color: #495057;
+    font-weight: 500;
+}
+
+.btn-enviar[b-n1dqyu6zev] {
+    background-color: #28a745;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    transition: all 0.3s;
+}
+
+    .btn-enviar:hover[b-n1dqyu6zev] {
+        background-color: #218838;
+        transform: translateY(-2px);
+    }
+
+.contacto-info p[b-n1dqyu6zev] {
+    margin-bottom: 1rem;
+}
+
+.contacto-info i[b-n1dqyu6zev] {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+.btn-social[b-n1dqyu6zev] {
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .btn-social:hover[b-n1dqyu6zev] {
+        background-color: white;
+        color: #28a745;
+    }
+
+/* Para los iconos de Font Awesome */
+@@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+/* /Pages/InformeEsalP.razor.rz.scp.css */
+.upload-label[b-12nvftz1or] {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    max-width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+    .upload-label:hover[b-12nvftz1or] {
+        background-color: #f0f0f0;
+    }
+
+    .upload-label img[b-12nvftz1or] {
+        height: 20px;
+        width: 20px;
+        object-fit: contain;
+    }
+
+.btn-custom[b-12nvftz1or] {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+    .btn-custom:hover[b-12nvftz1or] {
+        background-color: #357ABD;
+    }
+
+.custom-img[b-12nvftz1or] {
+    object-fit: cover;
+    transform: scale(1.3);
+}
+
+.file-upload[b-12nvftz1or] {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.file-label[b-12nvftz1or] {
+    background-color: #3366cc;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+    .file-label:hover[b-12nvftz1or] {
+        background-color: #254a99;
+    }
+
+.file-input[b-12nvftz1or] {
+    display: none; /* oculta el input real */
+}
+
+/* /Pages/Nosotros.razor.rz.scp.css */
+.hero-section[b-lk5qrjcn74] {
+    background: linear-gradient(135deg, #0d6efd, #198754);
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Timeline */
+.timeline-item[b-lk5qrjcn74] {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+    .timeline-item[b-lk5qrjcn74]::before {
+        content: "●";
+        color: #0d6efd;
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 1.3rem;
+    }
+
+    .timeline-item .year[b-lk5qrjcn74] {
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+/* Misión y Visión */
+.card[b-lk5qrjcn74] {
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+    .card:hover[b-lk5qrjcn74] {
+        transform: translateY(-5px);
+    }
+
+.icon-container[b-lk5qrjcn74] {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.mission-card .icon-container[b-lk5qrjcn74] {
+    background: linear-gradient(135deg, #0d6efd, #6ea8fe);
+}
+
+.vision-card .icon-container[b-lk5qrjcn74] {
+    background: linear-gradient(135deg, #198754, #71dd8a);
+}
+
+/* Valores */
+.valores-section[b-lk5qrjcn74] {
+    background: #f8f9fa;
+}
+
+.hover-card[b-lk5qrjcn74] {
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+    .hover-card:hover[b-lk5qrjcn74] {
+        background: white;
+        transform: translateY(-5px);
+        box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+    }
+
+/* Equipo */
+.team-card img[b-lk5qrjcn74] {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border: 4px solid #fff;
+}
+
+/* Impacto */
+.impact-section[b-lk5qrjcn74] {
+    background: linear-gradient(135deg, #198754, #0d6efd);
+}
+
+.text-justify[b-lk5qrjcn74] {
+    text-align: justify !important;
+}
+/* /Pages/PromotionComponent.razor.rz.scp.css */
+
+.promotionCard[b-trzyjlfeyp] {
+    background-color: #edf7e7; /* Fondo claro para las tarjetas de promoción */ /* Borde gris claro */
+    padding: 1rem; /* Espaciado interno */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Sombra sutil */
+    transition: transform 0.2s ease-in-out; /* Transición suave al hacer hover */
+    color: #3367ca;
+    font-weight: bold;
+    font-family: 'SamsungOne', Arial, sans-serif; /* Fuente personalizada */
+    font-size: 1.5rem;
+    text-align: justify;
+}
