@@ -1,0 +1,122 @@
+﻿{
+  "documentosInstitucionales": [
+    {
+      "name": "ActaAsamblea2016.pdf",
+      "url": "/DocumentosInstitucionales/Acta Asamblea 2016.pdf"
+    },
+    {
+      "name": "ActaAsamblea2018.pdf",
+      "url": "/DocumentosInstitucionales/ActaAsamblea2018.pdf"
+    },
+    {
+      "name": "CamaradeComercio-2025.pdf",
+      "url": "/DocumentosInstitucionales/Camara de Comercio-2025.pdf"
+    }
+  ],
+
+  "informesforYear": {
+    "2018": [
+      {
+        "name": "Acta Asamblea 2016.pdf",
+        "url": "/informes/2018/Acta Asamblea 2016.pdf"
+      },
+      {
+        "name": "Acta Asamblea 2018.pdf",
+        "url": "/informes/2018/Acta Asamblea 2018.pdf"
+      },
+      {
+        "name": "Acta de constitucion.pdf",
+        "url": "/informes/2018/Acta de constitucion.pdf"
+      },
+      {
+        "name": "Certificacion De Antecedentes Socios.pdf",
+        "url": "/informes/2018/Certificacion De Antecedentes Socios.pdf"
+      },
+      {
+        "name": "Certificacion Requisitos Representante Legal.pdf",
+        "url": "/informes/2018/Certificacion Requisitos Representante Legal.pdf"
+      },
+      {
+        "name": "Certificado Camara De Comercio 2018.pdf",
+        "url": "/informes/2018/Certificado Camara De Comercio 2018.pdf"
+      },
+      {
+        "name": "Estados Financieros 2017.pdf",
+        "url": "/informes/2018/Estados Financieros 2017.pdf"
+      },
+      {
+        "name": "Informe Anual Representante Legal.pdf",
+        "url": "/informes/2018/Informe Anual Representante Legal.pdf"
+      },
+      {
+        "name": "Rut 2018.pdf",
+        "url": "/informes/2018/Rut 2018.pdf"
+      }
+    ],
+
+    "2019": [
+      {
+        "name": "Autorizacion De Permanencia 2019.pdf",
+        "url": "/informes/2019/Autorizacion De Permanencia 2019.pdf"
+      },
+      {
+        "name": "Camara De Comercio 2019.pdf",
+        "url": "/informes/2019/Camara De Comercio 2019.pdf"
+      },
+      {
+        "name": "Certificacion De Remuneracion Cargos.pdf",
+        "url": "/informes/2019/Certificacion De Remuneracion Cargos.pdf"
+      },
+      {
+        "name": "Certificacion Requisitos Del Representante Legal 2019.pdf",
+        "url": "/informes/2019/Certificacion Requisitos Del Representante Legal 2019.pdf"
+      },
+      {
+        "name": "Declaracion De Renta 2018.pdf",
+        "url": "/informes/2019/Declaracion De Renta 2018.pdf"
+      },
+      {
+        "name": "Estados Financieros 2018.pdf",
+        "url": "/informes/2019/Estados Financieros 2018.pdf"
+      },
+      {
+        "name": "INFORME ANUAL DE RESULTADOS DEL REPRESENTANTE LEGAL.pdf",
+        "url": "/informes/2019/INFORME ANUAL DE RESULTADOS DEL REPRESENTANTE LEGAL.pdf"
+      }
+    ],
+    "2024": [
+      {
+        "name": "Acta Asamblea 2018.pdf",
+        "url": "/informes/2024/Acta Asamblea 2018.pdf"
+      },
+      {
+        "name": "Acta No. 5 Asamblea.pdf",
+        "url": "/informes/2024/Acta No. 5 Asamblea.pdf"
+      },
+      {
+        "name": "Camara Comercio Asociacion.pdf",
+        "url": "/informes/2024/Camara Comercio Asociacion.pdf"
+      },
+      {
+        "name": "Estado de Resultados 2024.pdf",
+        "url": "/informes/2024/Estado de Resultados 2024.pdf"
+      },
+      {
+        "name": "Estado Situacion Financiera-2024.pdf",
+        "url": "/informes/2024/Estado Situacion Financiera-2024.pdf"
+      },
+      {
+        "name": "Estatutos 2018.pdf",
+        "url": "/informes/2024/Estatutos 2018.pdf"
+      },
+      {
+        "name": "Miembros de la  Junta Directiva-2024.pdf",
+        "url": "/informes/2024/Miembros de la  Junta Directiva-2024.pdf"
+      },
+      {
+        "name": "Renta-2024.pdf",
+        "url": "/informes/2024/Renta-2024.pdf"
+      }
+    ]
+  }
+}
